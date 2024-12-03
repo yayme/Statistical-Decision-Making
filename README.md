@@ -15,16 +15,15 @@ P(\theta | X) = \frac{P(X | \theta) P(\theta)}{P(X)}
 $$
 
 Where:
-- $$\( P(\theta | X) \)$$ is the posterior distribution of the parameter \( \theta \),
-- \( P(X | \theta) \) is the likelihood function,
-- \( P(\theta) \) is the prior distribution, and
-- \( P(X) \) is the marginal likelihood.
+- $$ P(\theta | X) $$ is the posterior distribution of the parameter $$\theta $$,
+- $$ P(X | \theta) $$ is the likelihood function,
+- $$ P(\theta) $$ is the prior distribution, and
+- $$ P(X) $$ is the marginal likelihood.
 
 In this project, we use a **Beta distribution** as the conjugate prior for a **Binomial likelihood**. The Beta distribution is given by:
 
-$$
-\text{Beta}(\theta; \alpha, \beta) = \frac{\theta^{\alpha - 1} (1 - \theta)^{\beta - 1}}{B(\alpha, \beta)}
-$$
+$$ \text{Beta}(\theta; \alpha, \beta) = \frac{\theta^{\alpha - 1} (1 - \theta)^{\beta - 1}}{B(\alpha, \beta)} $$
+
 
 Where $$\( \alpha \)$$ and $$\( \beta \)$$ are the shape parameters, and $$\( B(\alpha, \beta) \)$$ is the Beta function.
 
