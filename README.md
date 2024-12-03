@@ -26,19 +26,21 @@ $$
 \text{Beta}(\theta; \alpha, \beta) = \frac{\theta^{\alpha - 1} (1 - \theta)^{\beta - 1}}{B(\alpha, \beta)}
 $$
 
-Where \( \alpha \) and \( \beta \) are the shape parameters, and \( B(\alpha, \beta) \) is the Beta function.
+Where $$\( \alpha \)$$ and $$\( \beta \)$$ are the shape parameters, and $$\( B(\alpha, \beta) \)$$ is the Beta function.
 
 #### MLE and MAP:
-- **Maximum Likelihood Estimation (MLE)** is used to find the parameter \( \theta \) that maximizes the likelihood function:
-
+- **Maximum Likelihood Estimation (MLE)** is used to find the parameter $$\( \theta \)$$ that maximizes the likelihood function:
+$$
 $$
 \hat{\theta}_{MLE} = \arg\max_{\theta} P(X | \theta)
 $$
-
+$$
 - **Maximum A Posteriori (MAP)** estimation incorporates the prior knowledge:
-
+$$
 $$
 \hat{\theta}_{MAP} = \arg\max_{\theta} P(X | \theta) P(\theta)
+
+$$
 $$
 
 #### Posterior Mean:
