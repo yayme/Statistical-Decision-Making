@@ -15,7 +15,7 @@ P(\theta | X) = \frac{P(X | \theta) P(\theta)}{P(X)}
 $$
 
 Where:
-- $$ P(\theta | X) $$ is the posterior distribution of the parameter $$\theta $$,
+ $$ P(\theta | X) $$ is the posterior distribution of the parameter $$\theta $$,
 - $$ P(X | \theta) $$ is the likelihood function,
 - $$ P(\theta) $$ is the prior distribution, and
 - $$ P(X) $$ is the marginal likelihood.
