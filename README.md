@@ -10,9 +10,9 @@ This project demonstrates **Bayesian inference** with a focus on parameter estim
 #### Bayesian Framework:
 The core idea is to compute the **posterior distribution** using Bayes' theorem:
 
-\[
+\(
 P(\theta | X) = \frac{P(X | \theta) P(\theta)}{P(X)}
-\]
+\)
 
 Where:
 - \( P(\theta | X) \) is the posterior distribution of the parameter \( \theta \),
