@@ -1,6 +1,6 @@
 # Statistical Decision Making
 
-This repository includes exploratory projects focused on statistical decision-making techniques, providing hands-on applications of key methods in various contexts, including healthcare prediction, inventory management, and Bayesian inference.
+This repository includes exploratory projects focused on statistical decision-making techniques, providing hands-on applications of key methods in various contexts, including healthcare prediction, inventory management, Bayesian inference, and optimal stopping problems.
 
 ## Projects
 
@@ -59,17 +59,31 @@ $$
 
 Alternatively, a **logarithmic loss** could be used to measure the quality of probabilistic predictions.
 
+---
+
 ### 2. Newsvendor Problem
 This project addresses the **Newsvendor Problem**, a typical inventory management problem involving demand uncertainty. The project covers:
 - **Censored demand**: When demand is partially observed, requiring techniques to handle missing or incomplete data.
 - **Uncensored demand**: Full demand data is used to estimate optimal inventory levels.
 - **Weather data integration**: Incorporating external data (weather) to predict demand and adjust purchasing decisions accordingly.
 
+---
 
 ### 3. Readmission Prediction to Clinic
 This project implements **classification models** for predicting patient readmissions. Models such as **Logistic Regression** and **K-Nearest Neighbors (KNN)** are used, where the predicted probabilities are compared to a **threshold** to decide on the readmission risk. The threshold is optimized to minimize **misclassification costs**, where the cost criteria reflect the clinical consequences of false positives and negatives.
 
+---
 
+### 4. Multiple Secretary Problem with Unknown Distribution
+This project explores the **Multiple Secretary Problem**, an optimal stopping problem where decisions must be made to maximize rewards when the underlying distribution of rewards is unknown. 
+
+#### Approach:
+- **Q-Learning Table**: Reinforcement learning is applied using a tabular Q-learning approach to estimate the value of actions in each state.
+- **Discounted Learning**: Future rewards are discounted to prioritize immediate gains, ensuring a balance between exploration and exploitation.
+- **Epsilon-Greedy Strategy**: An adaptive epsilon value is used for exploration. Initially, the model explores more to gather information, and as learning progresses, it shifts toward exploitation by lowering epsilon.
+- The algorithm learns dynamically to make decisions under uncertainty and improve the selection process over time.
+
+---
 
 ## Languages Used
 - Python 3.x
